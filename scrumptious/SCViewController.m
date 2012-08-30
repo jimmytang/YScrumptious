@@ -99,21 +99,21 @@
     // These OG object URLs were created using the edit open graph feature of the graph tool
     // at https://www.developers.facebook.com/apps/
     if ([meal isEqualToString:@"Cheeseburger"]) {
-        result.url = @"http://samples.ogp.me/314483151980285";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     } else if ([meal isEqualToString:@"Pizza"]) {
-        result.url = @"http://samples.ogp.me/314483221980278";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     } else if ([meal isEqualToString:@"Hotdog"]) {
-        result.url = @"http://samples.ogp.me/314483265313607";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     } else if ([meal isEqualToString:@"Italian"]) {
-        result.url = @"http://samples.ogp.me/314483348646932";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     } else if ([meal isEqualToString:@"French"]) {
-        result.url = @"http://samples.ogp.me/314483375313596";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     } else if ([meal isEqualToString:@"Chinese"]) {
-        result.url = @"http://samples.ogp.me/314483421980258";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     } else if ([meal isEqualToString:@"Thai"]) {
-        result.url = @"http://samples.ogp.me/314483451980255";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     } else if ([meal isEqualToString:@"Indian"]) {
-        result.url = @"http://samples.ogp.me/314483491980251";
+        result.url = @"http://secret-stream-6334.herokuapp.com/";
     }
     return result;
 }
@@ -150,7 +150,7 @@
     }
   NSLog(@"action %@", action);
     // Create the request and post the action to the "me/fb_sample_scrumps:eat" path.
-    [FBRequestConnection startForPostWithGraphPath:@"me/fb_sample_scrumps:eat"
+    [FBRequestConnection startForPostWithGraphPath:@"me/yscrumptious:eat"
                                        graphObject:action
                                  completionHandler:^(FBRequestConnection *connection,
                                                      id result,
