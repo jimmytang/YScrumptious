@@ -126,7 +126,7 @@
     
     // Now create an Open Graph eat action with the meal, our location, and the people we were with.
     id<SCOGEatMealAction> action = (id<SCOGEatMealAction>)[FBGraphObject graphObject];
-    action.meal = mealObject;
+    action.foodthing = mealObject;
     if (self.selectedPlace) {
         // FBSample logic
         // We don't use the action.place syntax here because, unfortunately, setPlace:

@@ -33,7 +33,7 @@
 // as well as properties inherited from FBOpenGraphAction such as "place" and "tags".
 @protocol SCOGEatMealAction<FBOpenGraphAction>
 
-@property (retain, nonatomic) id<SCOGMeal>    meal;
+@property (retain, nonatomic) id<SCOGMeal>    foodthing;
 
 @end
 
